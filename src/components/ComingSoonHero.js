@@ -6,7 +6,7 @@ function ComingSoonHero() {
     return (
         <div className='hero-container'>
             <video src='/videos/Loop.mp4' autoPlay loop muted />
-            <h1>Coming Soon...</h1>
+            <h1>Coming Soon Stay Tuned...</h1>
         </div>
     )
 }
