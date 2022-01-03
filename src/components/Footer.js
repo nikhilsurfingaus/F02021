@@ -24,7 +24,7 @@ function Footer() {
               <img src={img1} alt='logo' class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>FO 2021©</small>
+          <small class='website-rights'>FO21©</small>
           <div class='social-icons'>
             <a
               class='social-icon-link instagram'

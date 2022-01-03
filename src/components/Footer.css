@@ -140,14 +140,17 @@
 
 .social-logo img:hover {
     transform: scale(1.1);
+    transition: 0.8s;
 }
 
 .instagram:hover {
     transform: scale(1.1);
+    transition: 0.8s;
 }
 
 .youtube:hover {
     transform: scale(1.1);
+    transition: 0.8s;
 }
 
 .website-rights {
