@@ -6,7 +6,7 @@ import './HeroSection.css'
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="/videos/Loop.mp4" autoPlay loop muted />
+            <video src="/videos/Loop.mp4" autoPlay loop muted controls webkit-playsinline playsinline />
             <h1>FORMULA 1 THE YEAR THAT WAS 2021</h1>
             <p>Drive into a recap of key events at each race this season</p>
             <div className="hero-btns">

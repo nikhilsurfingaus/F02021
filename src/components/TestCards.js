@@ -191,7 +191,7 @@ function TestCards() {
 
                         <TestCard src={img8}
                             text = {styeriaText}
-                            label = 'Styerian GP'/>
+                            label = 'Styrian GP'/>
 
                         <TestCard src={img9}
                             text = {austriaText}

@@ -118,3 +118,15 @@ h1 {
         margin-bottom: 2rem;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .cards__item {
+        margin-bottom: 2rem;
+    }
+    .cards__container {
+        width: 100%;
+    }
+    .cards {
+        padding: 1rem;
+    }
+}

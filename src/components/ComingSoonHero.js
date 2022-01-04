@@ -5,7 +5,7 @@ import './HeroSection.css'
 function ComingSoonHero() {
     return (
         <div className='hero-container'>
-            <video src='/videos/Loop.mp4' autoPlay loop muted />
+            <video src='/videos/Loop.mp4' autoPlay loop muted controls webkit-playsinline playsinline/>
             <h1>Coming Soon Stay Tuned....</h1>
         </div>
     )

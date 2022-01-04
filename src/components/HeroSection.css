@@ -69,3 +69,22 @@ video {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    video {
+        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none;
+    }
+    .hero-container {
+        background: url('../images/mobile.jpg');
+        pointer-events: none;
+    }
+    .hero-container>p {
+        text-align: center;
+        font-size: 20px;
+    }
+    .hero-container>h1 {
+        font-size: 38px;
+    }
+}
