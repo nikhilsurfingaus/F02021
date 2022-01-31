@@ -1,13 +1,18 @@
 import React from 'react';
+import '../Quiz.css'
 import '../../App.css'
-import ComingSoonHero from '../ComingSoonHero';
+import QuizHeroSection from '../QuizHeroSection';
 import Footer from '../Footer';
+import Questions from '../Questions';
 
 
 export default function Quiz() {
     return (
         <>
-            <ComingSoonHero />
+            <QuizHeroSection />
+            <div className="sect">
+                <Questions />
+            </div>
             <Footer />
         </>
     );
