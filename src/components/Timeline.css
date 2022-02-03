@@ -1,0 +1,450 @@
+section {
+    padding: 50px 100px 200px 100px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+header p {
+    font-family: 'Allura';
+    color: rgba(255, 255, 255, .2);
+    margin-bottom: 0;
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    background: #ffffff;
+    width: 5px;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content .date {
+    right: auto;
+    left: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.timeline-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #120020;
+    box-shadow: 0 6px 20px rgba(231, 9, 231, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(158, 22, 158, 0.308));
+    filter: drop-shadow(0 6px 20px rgba(142, 23, 172, 0.164));
+}
+
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #f5f5f5;
+}
+
+.timeline-img {
+    width: 30px;
+    height: 30px;
+    background: #B10663;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.timeline-card {
+    padding: 0 !important;
+}
+
+.timeline-card:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.timeline-card p {
+    padding: 0 20px 20px;
+    color: white;
+}
+
+.timeline-card a {
+    margin-left: 20px;
+}
+
+
+/* Images Section */
+
+.timeline-item .timeline-img-header {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R1.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-1 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R3.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-2 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R4.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-3 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R5.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-4 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R6.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-5 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R7.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-6 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R8.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-7 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R9.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-8 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R10.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-9 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R11.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-10 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R12.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-11 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-12 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R13.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-12 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-13 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R14.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-13 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-14 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R15.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-14 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-15 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R16.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-15 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-16 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R17.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-16 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-17 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R18.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-17 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-18 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R19.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-18 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-19 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R20.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-19 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-20 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R21.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-20 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timeline-item .timeline-img-header-21 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url('../images/Champ/R22.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header-21 {
+    height: 250px;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* End of Images */
+
+h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 30px;
+}
+
+blockquote {
+    margin-top: 30px;
+    color: #757575;
+    border-left-color: #3f51b5;
+    padding: 0 20px;
+}
+
+.date {
+    background: #B10663;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 100px 50px 0 20px;
+    }
+    .timeline::before {
+        left: 50px;
+    }
+    .timeline .timeline-img {
+        left: 50px;
+    }
+    .timeline .timeline-content {
+        max-width: 100%;
+        width: auto;
+        margin-left: 70px;
+    }
+    .timeline .timeline-item:nth-child(even) .timeline-content {
+        float: none;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        top: 30px;
+        left: -15px;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent #f5f5f5 transparent transparent;
+    }
+}

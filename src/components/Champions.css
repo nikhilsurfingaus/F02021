@@ -1,0 +1,10 @@
+.sect {
+    background-color: #120020;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.sect h1 {
+    font-size: 30px;
+}

@@ -4,12 +4,12 @@ import './HeroSection.css'
 import './arrow.css'
 
 
-function DriversHeroSection() {
+function ChampHeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/Loop.mp4' autoPlay loop muted controls webkit-playsinline playsinline />
-            <h1>Driver Review</h1>
-            <p>Reflect on each drivers ranking, highs and lows for the 2021 season</p>
+            <video src='/videos/Loop.mp4' autoPlay loop muted controls webkit-playsinline playsinline/>
+            <h1>Champions Corner</h1>
+            <p>Take a journey through Max Verstappens performance at each race in 2021</p>
             <div class="arrow bounce">
                 <a class="fa fa-arrow-down fa-3x" href="/#"> </a>
             </div>
@@ -17,4 +17,4 @@ function DriversHeroSection() {
     )
 }
 
-export default DriversHeroSection
+export default ChampHeroSection
