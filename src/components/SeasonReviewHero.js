@@ -7,7 +7,6 @@ import './arrow.css'
 function SeasonReviewHero() {
     return (
         <div className='hero-container'>
-            <video src='/videos/Loop.mp4' autoPlay loop muted />
             <h1>Season Review</h1>
             <p>Drive into a recap of key events at each race this season</p>
             <div class="arrow bounce">

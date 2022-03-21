@@ -7,7 +7,6 @@ import './arrow.css'
 function DriversHeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/Loop.mp4' autoPlay loop muted controls webkit-playsinline playsinline />
             <h1>Driver Review</h1>
             <p>Reflect on each drivers ranking, highs and lows for the 2021 season</p>
             <div class="arrow bounce">
