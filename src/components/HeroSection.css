@@ -16,6 +16,8 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     background: url('../images/mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-container>h1 {

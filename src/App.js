@@ -8,6 +8,7 @@ import Stats from './components/pages/Stats';
 import Quiz from './components/pages/Quiz';
 import ChampionsCorner from './components/pages/ChampionsCorner';
 import SeasonReview from './components/pages/SeasonReview';
+// Did some change
 
 function App() {
     return ( 
