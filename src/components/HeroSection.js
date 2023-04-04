@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1>FORMULA 1 2021 THE YEAR THAT WAS</h1>
-            <p>Drive into a recap of key events at each race this season</p>
+            <p>Drive into a recap of key events of each race this season</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Away We Go</Button>
             </div>
